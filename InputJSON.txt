@@ -1,0 +1,26 @@
+Here are the formats for the JSON inputs
+
+
+CreateMail ---------------------------------------------------------------
+
+msg.payload = {
+    Subject: "Automation System",
+
+    To: "yomama@thannaloss.com",
+
+    SenderName: "Your AI email summary",
+
+    HtmlBody: msg.payload,
+    
+};
+
+return msg;
+
+
+MoveMail -------------------------------------------------------------------
+
+{
+    "EntryId" : "",
+    "TargetFolder" : ""
+}
+
